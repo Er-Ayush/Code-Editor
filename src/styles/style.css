@@ -1,0 +1,31 @@
+body {
+    background-color: #3d4149;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  pre {
+    text-align: left;
+    padding: 1em;
+    margin: 0;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  pre > div {
+    display: flex;
+  }
+  
+  pre > div > span:first-child {
+    display: inline-block;
+    width: 2em;
+    user-select: none;
+    opacity: 0.5;
+  }
+  
