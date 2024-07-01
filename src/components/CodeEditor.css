@@ -25,13 +25,12 @@
     overflow: auto;
     box-sizing: border-box;
     background: transparent;
-    color: white; /* Make input text visible */
-    caret-color: white; /* Show cursor */
+    color: white; 
+    caret-color: white; 
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    /* visibility:visible; */
     
   }
   
@@ -55,7 +54,7 @@
     word-wrap: break-word;
     box-sizing: border-box;
     color: transparent;
-    pointer-events: none; /* Make highlighted code non-interactive */
+    pointer-events: none; 
     position: absolute;
     top: 0;
     left: 0;
